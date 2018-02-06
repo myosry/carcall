@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carcall.AddCar"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/background"
+     >
+        
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:src="@drawable/logosec" />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="258dp"
+        android:layout_height="33dp"
+        android:layout_above="@+id/addBtn"
+        android:layout_alignLeft="@+id/CarEditText"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/edt_bg"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="phone Number"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/add_button_selector"   
+             />
+
+    <EditText
+        android:id="@+id/CarEditText"
+        android:layout_width="258dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/edt_bg"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Car Number"
+        android:textColor="#ffffff"
+        android:textSize="23sp" 
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZا أ إ ء ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه ى و ي"
+        
+        />
+
+   
+</RelativeLayout>

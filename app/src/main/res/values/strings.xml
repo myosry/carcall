@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">carcall</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="add">Add new car </string>
+    <string name="welcome">Welcome</string>
+    <string name="call">Call</string>
+    <string name="addcar">Add car</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_add_car">AddCar</string>
+    <string name="title_activity_about_us">AboutUs</string>
+
+</resources>
