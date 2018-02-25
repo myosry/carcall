@@ -1,5 +1,5 @@
 # Project overview
-help people to find cars' owner
+help Users to find cars' owner
 
 # License
 
